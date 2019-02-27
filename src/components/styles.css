@@ -1,0 +1,23 @@
+/*
+em: es la misma medida que utiliza flexbox, por debajo de 64em se considera pantalla chica.
+30vh: 30% de la pantalla
+overflow: auto -> muestra scroll
+*/
+@media (max-width: 64em) {
+    .locationList {
+        max-height: 40vh;
+        margin-bottom: 20px;
+    }
+}
+
+.locationList {
+    height: 85vh;
+    overflow: auto;
+}
+
+.forecast-title{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
